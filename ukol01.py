@@ -1,5 +1,5 @@
 jmeno = "alena"
 
-email = jmeno + ("@czechitas.cz")
+email = jmeno + "@czechitas.cz"
 
 print(email)
