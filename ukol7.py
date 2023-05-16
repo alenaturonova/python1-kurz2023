@@ -30,6 +30,17 @@ elif vypujceni_auta == "Peugeot":
 else:
         print("Zadejte jiné auto.")
 
+vypujceni_auta = input("Jaké vozidlo si ještě přejete půjčit? Máme v nabídce Peugeot a Škoda.")
+
+if vypujceni_auta == "Škoda":
+        auto_skoda.pujc_auto()
+        auto_skoda.getInfo()
+elif vypujceni_auta == "Peugeot":
+        auto_peugeut.pujc_auto()
+        auto_peugeut.getInfo()
+else:
+        print("Zadejte jiné auto.")
+
 
 
 
